@@ -37,8 +37,8 @@ float get_MSE(char* input_filename_1, char* input_filename_2)
 
 int main()
 {
-  char* input_filename_1 = "Test_1_rectified.png";
-  char* input_filename_2 = "Test_1_rectified_seq.png";
+  char* input_filename_1 = "Test_1.png";
+  char* input_filename_2 = "Test_1_rectified.png";
 
   // get mean squared error between image1 and image2
   float MSE = get_MSE(input_filename_1, input_filename_2);
