@@ -1,0 +1,17 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Stuff\lab1\ECSE420\Lab0\lab0>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Stuff\lab1\ECSE420\Lab0\lab0\kernel.cu" 
+  kernel.cu
+  lodepng.cu
+C:\Stuff\lab1\ECSE420\Lab0\lab0\lodepng.cu(773,34): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Stuff\lab1\ECSE420\Lab0\lab0\lodepng.cu(1437,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Stuff\lab1\ECSE420\Lab0\lab0\lodepng.cu(1441,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Stuff\lab1\ECSE420\Lab0\lab0\lodepng.cu(1513,86): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Stuff\lab1\ECSE420\Lab0\lab0\lodepng.cu(3435,46): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Stuff\lab1\ECSE420\Lab0\lab0\lodepng.cu(3441,54): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Stuff\lab1\ECSE420\Lab0\lab0\lodepng.cu(4244,75): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Stuff\lab1\ECSE420\Lab0\lab0\lodepng.cu(4292,41): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Stuff\lab1\ECSE420\Lab0\lab0\lodepng.cu(4372,59): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Stuff\lab1\ECSE420\Lab0\lab0\lodepng.cu(5312,47): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+     Creating library C:\Stuff\lab1\ECSE420\Lab0\lab0\x64\Debug\lab0.lib and object C:\Stuff\lab1\ECSE420\Lab0\lab0\x64\Debug\lab0.exp
+  lab0.vcxproj -> C:\Stuff\lab1\ECSE420\Lab0\lab0\x64\Debug\lab0.exe

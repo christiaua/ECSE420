@@ -1,0 +1,8 @@
+﻿  lodepng_test.c
+  test_equality.c
+P:\420\Lab0\lab0\test_equality.c(24,21): warning C4018: '<': signed/unsigned mismatch
+P:\420\Lab0\lab0\test_equality.c(30,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+test_equality.obj : error LNK2019: unresolved external symbol lodepng_decode32_file referenced in function get_MSE
+test_equality.obj : error LNK2019: unresolved external symbol lodepng_error_text referenced in function get_MSE
+P:\420\Lab0\lab0\x64\Debug\Test_images.exe : fatal error LNK1120: 2 unresolved externals
