@@ -2,3 +2,5 @@ P:\420\Lab0\lab0\x64\Debug\lab0.exe
 P:\420\Lab0\lab0\x64\Debug\lab0.pdb
 C:\Stuff\lab1\ECSE420\Lab0\lab0\x64\Debug\lab0.exe
 C:\Stuff\lab1\ECSE420\Lab0\lab0\x64\Debug\lab0.pdb
+C:\420\ECSE420\Lab0\lab0\x64\Debug\lab0.exe
+C:\420\ECSE420\Lab0\lab0\x64\Debug\lab0.pdb
